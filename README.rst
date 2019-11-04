@@ -1,4 +1,4 @@
-Prahasanam-Etlab-Survey-Automation
+Prahasanam-Etlab Survey dAutomation
 ==================================
 Etlab Survey-Full Browser Automation Using Selenium and Python
 
@@ -30,8 +30,8 @@ Supported Python Versions
 
 * Python 2.7, 3.6+
 
-Installing
-==========
+Installation
+============
 
 If you have `pip <https://pip.pypa.io/>`_ on your system, you can simply install or upgrade the Python bindings::
 
