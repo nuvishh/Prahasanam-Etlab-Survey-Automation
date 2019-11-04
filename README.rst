@@ -1,6 +1,7 @@
-Prahasanam-Etlab Survey dAutomation
+Prahasanam-Etlab Survey Automation
 ==================================
-Etlab Survey-Full Browser Automation Using Selenium and Python
+* Etlab Survey-Full Browser Automation Using Python with Selenium.
+* You have to enter your Username and Password of etlab website on terminal/cmd.
 
 Introduction
 ============
@@ -33,6 +34,8 @@ Supported Python Versions
 Installation
 ============
 
+Ubuntu/Linux
+------------
 If you have `pip <https://pip.pypa.io/>`_ on your system, you can simply install or upgrade the Python bindings::
 
     pip install -U selenium
@@ -43,6 +46,14 @@ Alternately, you can download the source distribution from `PyPI <https://pypi.o
 
 Note: You may want to consider using `virtualenv <http://www.virtualenv.org/>`_ to create isolated Python environments.
 
+Windows
+-------
+
+Install Python using the MSI available in python.org `downloads <https://www.python.org/downloads/>`_.
+
+Start a command prompt using the cmd.exe program and run the pip command as given below to install selenium::
+
+    C:\Python35\Scripts\pip.exe install selenium
 Drivers
 =======
 
@@ -62,3 +73,16 @@ Other supported browsers will have their own drivers available. Links to some of
 +--------------+-----------------------------------------------------------------------+
 | **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |
 +--------------+-----------------------------------------------------------------------+
+Running the Script
+==================
+
+For Windows 
+-----------
+If you downloaded the script and saved it inside C:\PrahasanamAutoScript.py, you can run it like this::
+
+    C:\Python35\python.exe C:\PrahasanamAutoScript.py
+For Ubuntu
+----------
+You can run the python script in ubuntu/Linux devices as ::
+
+    python PrahasanamAutoScript.py
