@@ -11,7 +11,7 @@ browser = webdriver.Firefox()# Enter the Driver path inside the paranthesis
 
 browser.implicitly_wait(30)#initiating Wait() function for browser to load.
 
-browser.get('https://www.yourcollegewebsite.etlab.in/survey/user/answer/25')
+browser.get('https://www.stthomas.etlab.in/survey/user/answer/25')
 #Enter the full path of your college ETLAB website Survey portal link ,ie the link of the Page that you are getting after pressing the button 'Do the Survey'. 
 
 user = browser.find_element_by_id('LoginForm_username')
