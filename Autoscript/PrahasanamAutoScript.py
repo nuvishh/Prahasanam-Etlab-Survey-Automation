@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 browser = webdriver.Chrome()# Enter the Driver path inside the paranthesis
 
 #browser = webdriver.Chrome('Chrome_Driver_Path') for chrome browser 
-#You may need to export the web driver path As  'export PATH=$PATH:/home/nuvish/Desktop/Prahasanam' on terminal
+#You may need to export the web driver path As  'export PATH=$PATH:/home/user/Desktop/Prahasanam-Etlab-Survey-Automation/Autoscript' on terminal
 
 browser.implicitly_wait(30)#initiating Wait() function for browser to load.
 
