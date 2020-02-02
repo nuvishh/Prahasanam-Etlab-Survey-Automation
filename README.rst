@@ -74,16 +74,3 @@ Other supported browsers will have their own drivers available. Links to some of
 +--------------+-----------------------------------------------------------------------+
 | **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |
 +--------------+-----------------------------------------------------------------------+
-Running the Script
-==================
-
-For Windows 
------------
-If you downloaded the script and saved it inside C:\PrahasanamAutoScript.py, you can run it like this::
-
-    C:\Python35\python.exe C:\PrahasanamAutoScript.py
-For Ubuntu
-----------
-You can run the python script in ubuntu/Linux devices as ::
-
-    python PrahasanamAutoScript.py
