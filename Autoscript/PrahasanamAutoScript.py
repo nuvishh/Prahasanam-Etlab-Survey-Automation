@@ -1,18 +1,19 @@
 #!/usr/bin/env python
-
+import getpass
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-browser = webdriver.Firefox()# Enter the Driver path inside the paranthesis
+browser = webdriver.Chrome()# Enter the Driver path inside the paranthesis
 
 #browser = webdriver.Chrome('Chrome_Driver_Path') for chrome browser 
 #You may need to export the web driver path As  'export PATH=$PATH:/home/nuvish/Desktop/Prahasanam' on terminal
 
 browser.implicitly_wait(30)#initiating Wait() function for browser to load.
 
-browser.get('https://www.stthomas.etlab.in/survey/user/answer/25')
+browser.get('https://www.stthomas.etlab.in/survey/user/answer/26')
 #Enter the full path of your college ETLAB website Survey portal link ,ie the link of the Page that you are getting after pressing the button 'Do the Survey'. 
+#Or Update the last number in the link with 1 (Eg :'https://www.stthomas.etlab.in/survey/user/answer/25' then change it to 'https://www.stthomas.etlab.in/survey/user/answer/26' )
 
 user = browser.find_element_by_id('LoginForm_username')
 pswd = browser.find_element_by_id('LoginForm_password')
@@ -20,7 +21,7 @@ pswd = browser.find_element_by_id('LoginForm_password')
 #Enter the Username and Password through Terminal.
 
 UserName = input("\nEnter User Name : ")
-PassWord = input("\nEnter the password : ")
+PassWord = getpass.getpass(prompt="\nEnter the Password : ", stream=None)
 user.send_keys(UserName)
 pswd.send_keys(PassWord)
 pswd.send_keys(Keys.ENTER)
