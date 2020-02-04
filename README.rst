@@ -74,3 +74,5 @@ Other supported browsers will have their own drivers available. Links to some of
 +--------------+-----------------------------------------------------------------------+
 | **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |
 +--------------+-----------------------------------------------------------------------+
+
+Checkout the Tutorials on setting webdriver : http://bit.ly/2Osn1eY
